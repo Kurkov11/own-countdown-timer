@@ -1,7 +1,14 @@
 import "./App.css";
-import Countdown frp, 
+import Background from "./components/Background";
+import Countdown from "./components/Countdown";
+
 function App() {
-  return "";
+  return (
+    <>
+      <Background />
+      <Countdown />
+    </>
+  );
 }
 
 export default App;

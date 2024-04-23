@@ -1,2 +1,43 @@
+:root {
+  --cambridge-blue: #9dbf9e;
+  --beige: #d0d6b5;
+  --light-coral: #ee7674;
+  --melon: #f9b5ac;
+  --mountbatten-pink: #987284;
+}
+#root,
+* {
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
+body {
+  font-family: "Montserrat", "sans-serif";
+}
+#background {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(var(--cambridge-blue), var(--beige));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: -100;
+}
 #countdown {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--melon);
+  color: var(--mountbatten-pink);
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  margin: 0 auto;
+  box-shadow: 0 0 1rem var(--melon);
+}
+#countdown h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
 }

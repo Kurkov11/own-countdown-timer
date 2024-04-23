@@ -1,12 +1,11 @@
 import "./App.css";
 import Background from "./components/Background";
-import Countdown from "./components/Countdown";
-
+import CountdownContainer from "./components/CountdownContainer";
 function App() {
   return (
     <>
       <Background />
-      <Countdown />
+      <CountdownContainer />
     </>
   );
 }

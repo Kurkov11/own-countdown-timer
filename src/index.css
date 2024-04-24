@@ -73,3 +73,19 @@ body {
   background-color: var(--mountbatten-pink);
   color: var(--melon);
 }
+#road {
+  width: 100%;
+  height: 300px;
+  background-color: var(--mountbatten-pink);
+  margin-top: auto;
+  margin-bottom: 5rem;
+  position: relative; /* To position lines */
+}
+#lines {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  border: dashed 7px var(--melon);
+  background-size: 10px 10px;
+}
